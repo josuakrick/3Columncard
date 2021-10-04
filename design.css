@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@200&display=swap');
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    height: 70vh;
+    margin: 5% auto 5%; 
+    background-color: hsl(0, 0%, 95%);
+    
+}
+
+
+
+
+.cardUm{
+    background-color: hsl(31, 77%, 52%) ;
+    border: 0 none transparent;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.cardDois{
+    background-color: hsl(184, 100%, 22%) ;
+
+}
+
+.cardTres{
+    background-color: hsl(179, 100%, 13%) ;
+    border: 0  none transparent;
+    border-radius: 0 10px 10px 0;
+}
+
+img {
+    margin: 10% 15%;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 30px 40px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Lexend Deca', sans-serif; ;
+    
+    
+}
+
+h1 {
+    margin: 0 15%;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.buttonUm {
+    background-color: hsl(0, 0%, 95%);
+    margin: 50px 40px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    line-height: 2.5em;
+}
+
+.buttonDois{
+    background-color: hsl(0, 0%, 95%);
+    margin: 50px 40px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    line-height: 2.5em;
+
+}
+
+.buttonTres {
+    background-color: hsl(0, 0%, 95%);
+    margin: 50px 40px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    line-height: 2.5em;
+}
+
+button:hover {
+    background-color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.linkUm {
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.linkDois {
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.linkTres {
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:375px) {
+   .cardUm , .cardDois , .cardTres , .box { 
+        display: block;
+        width: fit-content;
+        height: 75%;
+        margin: auto;
+    }
+  
+    .cardUm { 
+      border-radius: 10px 10px 0 0;
+  }
+  
+  .cardTres {
+      border-radius: 0 0 10px 10px;
+
+  }
+
+
+
+}
+
